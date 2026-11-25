@@ -1,0 +1,697 @@
+id,customer,bank,account,account_name,account_type,date,amount_sek,text,category
+t0001,c1,Nordea,c1-main,Personkonto,checking,2026-05-01,-549.00,Autogiro SATS SVERIGE AB,spend.leisure
+t0002,c1,Nordea,c1-main,Personkonto,checking,2026-05-02,-901.54,Kortköp 260501 ZALANDO SE,spend.shopping
+t0003,c1,Nordea,c1-main,Personkonto,checking,2026-05-03,-399.00,Autogiro TELIA SVERIGE AB,spend.housing
+t0004,c1,Nordea,c1-main,Personkonto,checking,2026-05-03,-335.81,Kortköp 260502 LYKO.SE,spend.shopping
+t0005,c1,Nordea,c1-main,Personkonto,checking,2026-05-03,-302.55,Kortköp 260501 WILLYS SOLNA,spend.groceries
+t0006,c1,Nordea,c1-main,Personkonto,checking,2026-05-05,-1060.00,Kortköp 260502 SL CENTRALEN,spend.transport
+t0007,c1,Nordea,c1-main,Personkonto,checking,2026-05-08,-89.58,Kortköp 260507 ESPRESSO HOUSE 1123,spend.dining
+t0008,c1,Nordea,c1-main,Personkonto,checking,2026-05-09,-427.77,Kortköp 260507 WILLYS SOLNA,spend.groceries
+t0009,c1,Nordea,c1-main,Personkonto,checking,2026-05-09,-304.36,Kortköp 260506 UBER *EATS HELP.UBER.COM,spend.dining
+t0010,c1,Nordea,c1-main,Personkonto,checking,2026-05-09,-129.00,Kortköp 260506 SPOTIFY P2F9A1C3,spend.leisure
+t0011,c1,Nordea,c1-main,Personkonto,checking,2026-05-12,-341.33,Betalning BG ELLEVIO AB,spend.housing
+t0012,c1,Nordea,c1-main,Personkonto,checking,2026-05-14,-45.67,Kortköp 260511 VOI TECHNOLOGY AB,spend.transport
+t0013,c1,Nordea,c1-main,Personkonto,checking,2026-05-16,-149.00,Kortköp 260515 NETFLIX.COM,spend.leisure
+t0014,c1,Nordea,c1-main,Personkonto,checking,2026-05-19,-285.24,Kortköp 260518 ICA NARA SODERMALM,spend.groceries
+t0015,c1,Nordea,c1-main,Personkonto,checking,2026-05-20,-148.30,Kortköp 260518 WILLYS SOLNA,spend.groceries
+t0016,c1,Nordea,c1-main,Personkonto,checking,2026-05-21,-285.19,Kortköp 260520 WOLT,spend.dining
+t0017,c1,Nordea,c1-main,Personkonto,checking,2026-05-22,-218.64,Kortköp 260520 WOLT,spend.dining
+t0018,c1,Nordea,c1-main,Personkonto,checking,2026-05-24,-92.94,Kortköp 260521 ZETTLE_*KAFE SOLROS,spend.dining
+t0019,c1,Nordea,c1-main,Personkonto,checking,2026-05-25,-3000.00,Överföring Sparkonto 3300 41 22871,transfer.savings
+t0020,c1,Nordea,c1-main,Personkonto,checking,2026-05-25,-139.31,Kortköp 260522 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0021,c1,Nordea,c1-main,Personkonto,checking,2026-05-25,-53.18,Kortköp 260523 ZETTLE_*KAFE SOLROS,spend.dining
+t0022,c1,Nordea,c1-main,Personkonto,checking,2026-05-25,32400.00,LÖN,income.employment
+t0023,c1,Nordea,c1-spar,Sparkonto,savings,2026-05-25,3000.00,Överföring Från 3300 41 18204,transfer.savings
+t0024,c1,Nordea,c1-main,Personkonto,checking,2026-05-26,-609.67,Kortköp 260524 WILLYS SOLNA,spend.groceries
+t0025,c1,Nordea,c1-main,Personkonto,checking,2026-05-27,-7850.00,Betalning BG SVENSKA BOSTADER,spend.housing
+t0026,c1,Nordea,c1-main,Personkonto,checking,2026-05-27,-678.02,Betalning BG KLARNA AB,credit.loan
+t0027,c1,Nordea,c1-main,Personkonto,checking,2026-05-28,-1650.00,Autogiro CSN,credit.loan
+t0028,c1,Nordea,c1-main,Personkonto,checking,2026-05-28,-115.00,Swish betalning SALLADSBAREN AB,spend.dining
+t0029,c1,Nordea,c1-main,Personkonto,checking,2026-05-28,-105.00,Swish betalning AMIRA H,transfer.person
+t0030,c1,Nordea,c1-main,Personkonto,checking,2026-05-29,-603.77,Kortköp 260526 WILLYS SOLNA,spend.groceries
+t0031,c1,Nordea,c1-main,Personkonto,checking,2026-05-29,-469.86,Kortköp 260526 ICA SUPERMARKET HORNSTULL,spend.groceries
+t0032,c1,Nordea,c1-main,Personkonto,checking,2026-05-29,-157.17,Kortköp 260526 APOTEK HJARTAT,spend.health
+t0033,c1,Nordea,c1-main,Personkonto,checking,2026-05-29,145.00,Swish inbetalning AMIRA H,transfer.person
+t0034,c1,Nordea,c1-main,Personkonto,checking,2026-05-30,-40.79,Kortköp 260527 VOI TECHNOLOGY AB,spend.transport
+t0035,c1,Nordea,c1-main,Personkonto,checking,2026-05-31,-32.44,Kortköp 260528 VOI TECHNOLOGY AB,spend.transport
+t0036,c1,Nordea,c1-main,Personkonto,checking,2026-06-01,-549.00,Autogiro SATS SVERIGE AB,spend.leisure
+t0037,c1,Nordea,c1-main,Personkonto,checking,2026-06-01,-396.72,Kortköp 260529 WILLYS SOLNA,spend.groceries
+t0038,c1,Nordea,c1-main,Personkonto,checking,2026-06-01,-253.34,Kortköp 260530 ICA SUPERMARKET HORNSTULL,spend.groceries
+t0039,c1,Nordea,c1-main,Personkonto,checking,2026-06-01,-135.00,Swish betalning SALLADSBAREN AB,spend.dining
+t0040,c1,Nordea,c1-main,Personkonto,checking,2026-06-03,-399.00,Autogiro TELIA SVERIGE AB,spend.housing
+t0041,c1,Nordea,c1-main,Personkonto,checking,2026-06-03,-50.50,Kortköp 260602 ESPRESSO HOUSE 1187,spend.dining
+t0042,c1,Nordea,c1-main,Personkonto,checking,2026-06-04,-1060.00,Kortköp 260602 SL CENTRALEN,spend.transport
+t0043,c1,Nordea,c1-main,Personkonto,checking,2026-06-04,-263.46,Kortköp 260601 WOLT,spend.dining
+t0044,c1,Nordea,c1-main,Personkonto,checking,2026-06-05,-170.75,Kortköp 260604 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0045,c1,Nordea,c1-main,Personkonto,checking,2026-06-06,-899.00,Kortköp 260603 ZALANDO SE,spend.shopping
+t0046,c1,Nordea,c1-main,Personkonto,checking,2026-06-06,-165.14,Kortköp 260603 ICA SUPERMARKET HORNSTULL,spend.groceries
+t0047,c1,Nordea,c1-main,Personkonto,checking,2026-06-09,-129.00,Kortköp 260606 SPOTIFY P2F9A1C3,spend.leisure
+t0048,c1,Nordea,c1-main,Personkonto,checking,2026-06-12,-574.44,Betalning BG ELLEVIO AB,spend.housing
+t0049,c1,Nordea,c1-main,Personkonto,checking,2026-06-12,-514.27,Kortköp 260610 ICA NARA SODERMALM,spend.groceries
+t0050,c1,Nordea,c1-main,Personkonto,checking,2026-06-13,-933.66,Kortköp 260611 H&M SE0412,spend.shopping
+t0051,c1,Nordea,c1-main,Personkonto,checking,2026-06-14,-410.00,Swish betalning MIKAEL S,transfer.person
+t0052,c1,Nordea,c1-main,Personkonto,checking,2026-06-14,-267.33,Kortköp 260611 WOLT,spend.dining
+t0053,c1,Nordea,c1-main,Personkonto,checking,2026-06-16,-1039.18,Kortköp 260613 AMAZON.SE,spend.shopping
+t0054,c1,Nordea,c1-main,Personkonto,checking,2026-06-16,-149.00,Kortköp 260615 NETFLIX.COM,spend.leisure
+t0055,c1,Nordea,c1-main,Personkonto,checking,2026-06-16,899.00,Kortköp 260614 ZALANDO SE,spend.shopping
+t0056,c1,Nordea,c1-main,Personkonto,checking,2026-06-17,-408.92,Kortköp 260616 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0057,c1,Nordea,c1-main,Personkonto,checking,2026-06-17,-350.00,Swish betalning OSKAR N,transfer.person
+t0058,c1,Nordea,c1-main,Personkonto,checking,2026-06-20,-70.22,Kortköp 260617 ESPRESSO HOUSE 1123,spend.dining
+t0059,c1,Nordea,c1-main,Personkonto,checking,2026-06-21,-115.00,Swish betalning SALLADSBAREN AB,spend.dining
+t0060,c1,Nordea,c1-main,Personkonto,checking,2026-06-21,-28.11,Kortköp 260618 VOI TECHNOLOGY AB,spend.transport
+t0061,c1,Nordea,c1-main,Personkonto,checking,2026-06-22,-205.36,Kortköp 260620 FOODORA AB,spend.dining
+t0062,c1,Nordea,c1-main,Personkonto,checking,2026-06-23,-106.14,Kortköp 260622 UBER *TRIP HELP.UBER.COM,spend.transport
+t0063,c1,Nordea,c1-main,Personkonto,checking,2026-06-23,-81.21,Kortköp 260621 ESPRESSO HOUSE 1187,spend.dining
+t0064,c1,Nordea,c1-main,Personkonto,checking,2026-06-24,-336.94,Kortköp 260622 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0065,c1,Nordea,c1-main,Personkonto,checking,2026-06-24,-229.42,Kortköp 260622 ICA NARA SODERMALM,spend.groceries
+t0066,c1,Nordea,c1-main,Personkonto,checking,2026-06-24,-173.84,Kortköp 260621 FOODORA AB,spend.dining
+t0067,c1,Nordea,c1-main,Personkonto,checking,2026-06-24,-74.71,Kortköp 260621 ESPRESSO HOUSE 1123,spend.dining
+t0068,c1,Nordea,c1-main,Personkonto,checking,2026-06-25,-3000.00,Överföring Sparkonto 3300 41 22871,transfer.savings
+t0069,c1,Nordea,c1-main,Personkonto,checking,2026-06-25,32400.00,LÖN,income.employment
+t0070,c1,Nordea,c1-spar,Sparkonto,savings,2026-06-25,3000.00,Överföring Från 3300 41 18204,transfer.savings
+t0071,c1,Nordea,c1-main,Personkonto,checking,2026-06-27,-7850.00,Betalning BG SVENSKA BOSTADER,spend.housing
+t0072,c1,Nordea,c1-main,Personkonto,checking,2026-06-27,-600.91,Kortköp 260625 WILLYS SOLNA,spend.groceries
+t0073,c1,Nordea,c1-main,Personkonto,checking,2026-06-27,-321.35,Betalning BG KLARNA AB,credit.loan
+t0074,c1,Nordea,c1-main,Personkonto,checking,2026-06-28,-1650.00,Autogiro CSN,credit.loan
+t0075,c1,Nordea,c1-main,Personkonto,checking,2026-06-29,-489.47,Kortköp 260628 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0076,c1,Nordea,c1-main,Personkonto,checking,2026-06-30,-21.76,Kortköp 260627 VOI TECHNOLOGY AB,spend.transport
+t0077,c1,Nordea,c1-main,Personkonto,checking,2026-07-01,-549.00,Autogiro SATS SVERIGE AB,spend.leisure
+t0078,c1,Nordea,c1-main,Personkonto,checking,2026-07-01,-217.64,Kortköp 260630 WILLYS SOLNA,spend.groceries
+t0079,c1,Nordea,c1-main,Personkonto,checking,2026-07-01,-150.00,Swish betalning AMIRA H,transfer.person
+t0080,c1,Nordea,c1-main,Personkonto,checking,2026-07-02,-170.26,Kortköp 260629 UBER *TRIP HELP.UBER.COM,spend.transport
+t0081,c1,Nordea,c1-main,Personkonto,checking,2026-07-03,-1060.00,Kortköp 260702 SL CENTRALEN,spend.transport
+t0082,c1,Nordea,c1-main,Personkonto,checking,2026-07-03,-399.00,Autogiro TELIA SVERIGE AB,spend.housing
+t0083,c1,Nordea,c1-main,Personkonto,checking,2026-07-04,-255.64,Kortköp 260701 ICA SUPERMARKET HORNSTULL,spend.groceries
+t0084,c1,Nordea,c1-main,Personkonto,checking,2026-07-04,-249.11,Kortköp 260703 UBER *EATS HELP.UBER.COM,spend.dining
+t0085,c1,Nordea,c1-main,Personkonto,checking,2026-07-06,-56.19,Kortköp 260704 ZETTLE_*KAFE SOLROS,spend.dining
+t0086,c1,Nordea,c1-main,Personkonto,checking,2026-07-07,-318.91,Kortköp 260705 UBER *EATS HELP.UBER.COM,spend.dining
+t0087,c1,Nordea,c1-main,Personkonto,checking,2026-07-07,-251.28,Kortköp 260706 UBER *TRIP HELP.UBER.COM,spend.transport
+t0088,c1,Nordea,c1-main,Personkonto,checking,2026-07-07,-129.00,Kortköp 260706 SPOTIFY P2F9A1C3,spend.leisure
+t0089,c1,Nordea,c1-main,Personkonto,checking,2026-07-08,-320.95,Kortköp 260705 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0090,c1,Nordea,c1-main,Personkonto,checking,2026-07-09,-4180.00,Kortköp 260708 BOOKING.COM HOTEL,spend.leisure
+t0091,c1,Nordea,c1-main,Personkonto,checking,2026-07-09,-3412.00,Kortköp 260708 SAS 1172302948813,spend.leisure
+t0092,c1,Nordea,c1-main,Personkonto,checking,2026-07-12,-433.25,Betalning BG ELLEVIO AB,spend.housing
+t0093,c1,Nordea,c1-main,Personkonto,checking,2026-07-12,-82.07,Kortköp 260710 ZETTLE_*KAFE SOLROS,spend.dining
+t0094,c1,Nordea,c1-main,Personkonto,checking,2026-07-14,450.00,Swish inbetalning AMIRA H,transfer.person
+t0095,c1,Nordea,c1-main,Personkonto,checking,2026-07-17,-149.00,Kortköp 260715 NETFLIX.COM,spend.leisure
+t0096,c1,Nordea,c1-main,Personkonto,checking,2026-07-18,-372.44,Kortköp 260716 ICA SUPERMARKET HORNSTULL,spend.groceries
+t0097,c1,Nordea,c1-main,Personkonto,checking,2026-07-18,-278.31,Kortköp 260716 ICA NARA SODERMALM,spend.groceries
+t0098,c1,Nordea,c1-main,Personkonto,checking,2026-07-21,1450.00,Insättning TRADERA AB,income.sales
+t0099,c1,Nordea,c1-main,Personkonto,checking,2026-07-22,-253.98,Kortköp 260719 FOODORA AB,spend.dining
+t0100,c1,Nordea,c1-main,Personkonto,checking,2026-07-22,-217.22,Kortköp 260720 UBER *EATS HELP.UBER.COM,spend.dining
+t0101,c1,Nordea,c1-main,Personkonto,checking,2026-07-23,-299.60,Kortköp 260722 LIDL HORNSGATAN,spend.groceries
+t0102,c1,Nordea,c1-main,Personkonto,checking,2026-07-23,-232.75,Kortköp 260721 WOLT,spend.dining
+t0103,c1,Nordea,c1-main,Personkonto,checking,2026-07-24,-3000.00,Överföring Sparkonto 3300 41 22871,transfer.savings
+t0104,c1,Nordea,c1-main,Personkonto,checking,2026-07-24,32400.00,LÖN,income.employment
+t0105,c1,Nordea,c1-spar,Sparkonto,savings,2026-07-24,3000.00,Överföring Från 3300 41 18204,transfer.savings
+t0106,c1,Nordea,c1-main,Personkonto,checking,2026-07-25,-433.90,Kortköp 260723 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0107,c1,Nordea,c1-main,Personkonto,checking,2026-07-25,-140.00,Swish betalning SALLADSBAREN AB,spend.dining
+t0108,c1,Nordea,c1-main,Personkonto,checking,2026-07-26,-307.41,Kortköp 260723 UBER *EATS HELP.UBER.COM,spend.dining
+t0109,c1,Nordea,c1-main,Personkonto,checking,2026-07-26,-236.73,Kortköp 260723 UBER *TRIP HELP.UBER.COM,spend.transport
+t0110,c1,Nordea,c1-main,Personkonto,checking,2026-07-27,-7850.00,Betalning BG SVENSKA BOSTADER,spend.housing
+t0111,c1,Nordea,c1-main,Personkonto,checking,2026-07-27,-744.12,Betalning BG KLARNA AB,credit.loan
+t0112,c1,Nordea,c1-main,Personkonto,checking,2026-07-27,-135.00,Swish betalning SALLADSBAREN AB,spend.dining
+t0113,c1,Nordea,c1-main,Personkonto,checking,2026-07-28,-1650.00,Autogiro CSN,credit.loan
+t0114,c1,Nordea,c1-main,Personkonto,checking,2026-07-29,650.00,Insättning TRADERA AB,income.sales
+t0115,c1,Nordea,c1-main,Personkonto,checking,2026-07-31,-3900.00,Betalning BG FLYTTHJALPEN STHLM AB,spend.housing
+t0116,c1,Nordea,c1-main,Personkonto,checking,2026-08-01,-549.00,Autogiro SATS SVERIGE AB,spend.leisure
+t0117,c1,Nordea,c1-main,Personkonto,checking,2026-08-01,-22.10,Kortköp 260730 VOI TECHNOLOGY AB,spend.transport
+t0118,c1,Nordea,c1-main,Personkonto,checking,2026-08-02,-613.93,Kortköp 260730 LYKO.SE,spend.shopping
+t0119,c1,Nordea,c1-main,Personkonto,checking,2026-08-02,-344.78,Kortköp 260731 WILLYS SOLNA,spend.groceries
+t0120,c1,Nordea,c1-main,Personkonto,checking,2026-08-02,-269.72,Kortköp 260801 WOLT,spend.dining
+t0121,c1,Nordea,c1-main,Personkonto,checking,2026-08-03,-4890.00,Kortköp 260802 IKEA KUNGENS KURVA,spend.shopping
+t0122,c1,Nordea,c1-main,Personkonto,checking,2026-08-03,-399.00,Autogiro TELIA SVERIGE AB,spend.housing
+t0123,c1,Nordea,c1-main,Personkonto,checking,2026-08-04,-177.77,Kortköp 260803 ICA SUPERMARKET HORNSTULL,spend.groceries
+t0124,c1,Nordea,c1-main,Personkonto,checking,2026-08-05,-1060.00,Kortköp 260802 SL CENTRALEN,spend.transport
+t0125,c1,Nordea,c1-main,Personkonto,checking,2026-08-05,-649.00,Kortköp 260804 CLAS OHLSON 042,spend.shopping
+t0126,c1,Nordea,c1-main,Personkonto,checking,2026-08-06,-1299.00,Kortköp 260803 JYSK BARKARBY,spend.shopping
+t0127,c1,Nordea,c1-main,Personkonto,checking,2026-08-07,-129.00,Kortköp 260806 SPOTIFY P2F9A1C3,spend.leisure
+t0128,c1,Nordea,c1-main,Personkonto,checking,2026-08-11,-507.86,Kortköp 260808 AMAZON.SE,spend.shopping
+t0129,c1,Nordea,c1-main,Personkonto,checking,2026-08-11,-332.62,Kortköp 260808 WILLYS SOLNA,spend.groceries
+t0130,c1,Nordea,c1-main,Personkonto,checking,2026-08-12,-1249.00,Kortköp 260809 IKEA KUNGENS KURVA,spend.shopping
+t0131,c1,Nordea,c1-main,Personkonto,checking,2026-08-12,-476.17,Betalning BG ELLEVIO AB,spend.housing
+t0132,c1,Nordea,c1-main,Personkonto,checking,2026-08-12,-156.54,Kortköp 260809 LIDL HORNSGATAN,spend.groceries
+t0133,c1,Nordea,c1-main,Personkonto,checking,2026-08-12,320.00,Swish inbetalning MIKAEL S,transfer.person
+t0134,c1,Nordea,c1-main,Personkonto,checking,2026-08-14,-610.65,Kortköp 260812 ICA NARA SODERMALM,spend.groceries
+t0135,c1,Nordea,c1-main,Personkonto,checking,2026-08-14,-226.14,Kortköp 260813 FOODORA AB,spend.dining
+t0136,c1,Nordea,c1-main,Personkonto,checking,2026-08-15,-1098.43,Kortköp 260814 ZALANDO SE,spend.shopping
+t0137,c1,Nordea,c1-main,Personkonto,checking,2026-08-15,-160.00,Swish betalning MIKAEL S,transfer.person
+t0138,c1,Nordea,c1-main,Personkonto,checking,2026-08-17,-263.67,Kortköp 260815 WOLT,spend.dining
+t0139,c1,Nordea,c1-main,Personkonto,checking,2026-08-17,-207.78,Kortköp 260816 WILLYS SOLNA,spend.groceries
+t0140,c1,Nordea,c1-main,Personkonto,checking,2026-08-18,-231.31,Kortköp 260817 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0141,c1,Nordea,c1-main,Personkonto,checking,2026-08-18,-149.00,Kortköp 260815 NETFLIX.COM,spend.leisure
+t0142,c1,Nordea,c1-main,Personkonto,checking,2026-08-19,-72.61,Kortköp 260818 ESPRESSO HOUSE 1123,spend.dining
+t0143,c1,Nordea,c1-main,Personkonto,checking,2026-08-20,-91.14,Kortköp 260819 ESPRESSO HOUSE 1187,spend.dining
+t0144,c1,Nordea,c1-main,Personkonto,checking,2026-08-22,-565.90,Kortköp 260820 ICA SUPERMARKET HORNSTULL,spend.groceries
+t0145,c1,Nordea,c1-main,Personkonto,checking,2026-08-23,-43.14,Kortköp 260822 VOI TECHNOLOGY AB,spend.transport
+t0146,c1,Nordea,c1-main,Personkonto,checking,2026-08-25,-3500.00,Överföring Sparkonto 3300 41 22871,transfer.savings
+t0147,c1,Nordea,c1-main,Personkonto,checking,2026-08-25,36900.00,LÖN,income.employment
+t0148,c1,Nordea,c1-spar,Sparkonto,savings,2026-08-25,3500.00,Överföring Från 3300 41 18204,transfer.savings
+t0149,c1,Nordea,c1-main,Personkonto,checking,2026-08-26,-248.35,Kortköp 260825 WOLT,spend.dining
+t0150,c1,Nordea,c1-main,Personkonto,checking,2026-08-26,-34.36,Kortköp 260824 VOI TECHNOLOGY AB,spend.transport
+t0151,c1,Nordea,c1-main,Personkonto,checking,2026-08-27,-11200.00,Betalning BG HEIMSTADEN AB,spend.housing
+t0152,c1,Nordea,c1-main,Personkonto,checking,2026-08-27,-1335.20,Betalning BG KLARNA AB,credit.loan
+t0153,c1,Nordea,c1-main,Personkonto,checking,2026-08-27,-140.00,Swish betalning SALLADSBAREN AB,spend.dining
+t0154,c1,Nordea,c1-main,Personkonto,checking,2026-08-28,-1650.00,Autogiro CSN,credit.loan
+t0155,c1,Nordea,c1-main,Personkonto,checking,2026-08-31,-175.06,Kortköp 260828 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0156,c1,Nordea,c1-main,Personkonto,checking,2026-09-01,-549.00,Autogiro SATS SVERIGE AB,spend.leisure
+t0157,c1,Nordea,c1-main,Personkonto,checking,2026-09-01,-101.74,Kortköp 260831 ICA NARA SODERMALM,spend.groceries
+t0158,c1,Nordea,c1-main,Personkonto,checking,2026-09-02,-133.96,Kortköp 260830 WOLT,spend.dining
+t0159,c1,Nordea,c1-main,Personkonto,checking,2026-09-02,-126.96,Kortköp 260831 UBER *TRIP HELP.UBER.COM,spend.transport
+t0160,c1,Nordea,c1-main,Personkonto,checking,2026-09-03,-399.00,Autogiro TELIA SVERIGE AB,spend.housing
+t0161,c1,Nordea,c1-main,Personkonto,checking,2026-09-03,-221.86,Kortköp 260902 SF BIO SODERMALM,spend.leisure
+t0162,c1,Nordea,c1-main,Personkonto,checking,2026-09-03,-120.00,Swish betalning SALLADSBAREN AB,spend.dining
+t0163,c1,Nordea,c1-main,Personkonto,checking,2026-09-04,-1060.00,Kortköp 260902 SL CENTRALEN,spend.transport
+t0164,c1,Nordea,c1-main,Personkonto,checking,2026-09-04,-58.20,Kortköp 260902 ESPRESSO HOUSE 1204,spend.dining
+t0165,c1,Nordea,c1-main,Personkonto,checking,2026-09-07,-129.00,Kortköp 260906 SPOTIFY P2F9A1C3,spend.leisure
+t0166,c1,Nordea,c1-main,Personkonto,checking,2026-09-08,-408.31,Kortköp 260905 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0167,c1,Nordea,c1-main,Personkonto,checking,2026-09-10,-18.70,Kortköp 260907 VOI TECHNOLOGY AB,spend.transport
+t0168,c1,Nordea,c1-main,Personkonto,checking,2026-09-11,-186.14,Kortköp 260910 APOTEK HJARTAT,spend.health
+t0169,c1,Nordea,c1-main,Personkonto,checking,2026-09-11,-28.70,Kortköp 260908 VOI TECHNOLOGY AB,spend.transport
+t0170,c1,Nordea,c1-main,Personkonto,checking,2026-09-12,-474.92,Betalning BG ELLEVIO AB,spend.housing
+t0171,c1,Nordea,c1-main,Personkonto,checking,2026-09-12,-396.61,Kortköp 260911 LIDL HORNSGATAN,spend.groceries
+t0172,c1,Nordea,c1-main,Personkonto,checking,2026-09-12,-297.07,Kortköp 260910 WILLYS SOLNA,spend.groceries
+t0173,c1,Nordea,c1-main,Personkonto,checking,2026-09-12,-27.07,Kortköp 260911 VOI TECHNOLOGY AB,spend.transport
+t0174,c1,Nordea,c1-main,Personkonto,checking,2026-09-13,-1000.00,Uttag Bankomat LISBOA EUR 87.50,transfer.cash
+t0175,c1,Nordea,c1-main,Personkonto,checking,2026-09-14,-301.93,Kortköp 260913 UBER *EATS HELP.UBER.COM,spend.dining
+t0176,c1,Nordea,c1-main,Personkonto,checking,2026-09-14,-274.88,Kortköp 260912 UBER *TRIP LISBOA EUR 24.07,spend.transport
+t0177,c1,Nordea,c1-main,Personkonto,checking,2026-09-14,-251.01,Kortköp 260912 PINGO DOCE LISBOA EUR 21.98,spend.groceries
+t0178,c1,Nordea,c1-main,Personkonto,checking,2026-09-15,-436.02,Kortköp 260913 TIME OUT MARKET LISBOA EUR 38.18,spend.dining
+t0179,c1,Nordea,c1-main,Personkonto,checking,2026-09-15,-85.00,Swish betalning OSKAR N,transfer.person
+t0180,c1,Nordea,c1-main,Personkonto,checking,2026-09-15,-55.96,Kortköp 260913 CP COMBOIOS DE PORTUGAL EUR 4.90,spend.transport
+t0181,c1,Nordea,c1-main,Personkonto,checking,2026-09-16,-632.11,Kortköp 260913 ICA NARA SODERMALM,spend.groceries
+t0182,c1,Nordea,c1-main,Personkonto,checking,2026-09-16,-159.88,Kortköp 260914 MUSEU GULBENKIAN EUR 14.00,spend.leisure
+t0183,c1,Nordea,c1-main,Personkonto,checking,2026-09-16,-132.02,Kortköp 260914 CAFE A BRASILEIRA EUR 11.56,spend.dining
+t0184,c1,Nordea,c1-main,Personkonto,checking,2026-09-17,-127.68,Kortköp 260915 PINGO DOCE LISBOA EUR 11.18,spend.groceries
+t0185,c1,Nordea,c1-main,Personkonto,checking,2026-09-17,285.00,Swish inbetalning JOHANNA L,transfer.person
+t0186,c1,Nordea,c1-main,Personkonto,checking,2026-09-18,-795.86,Kortköp 260916 CERVEJARIA RAMIRO EUR 69.69,spend.dining
+t0187,c1,Nordea,c1-main,Personkonto,checking,2026-09-18,-591.20,Kortköp 260916 WILLYS SOLNA,spend.groceries
+t0188,c1,Nordea,c1-main,Personkonto,checking,2026-09-18,-241.08,Kortköp 260916 FOODORA AB,spend.dining
+t0189,c1,Nordea,c1-main,Personkonto,checking,2026-09-18,-149.00,Kortköp 260915 NETFLIX.COM,spend.leisure
+t0190,c1,Nordea,c1-main,Personkonto,checking,2026-09-19,-500.54,Kortköp 260917 ZARA CHIADO EUR 43.83,spend.shopping
+t0191,c1,Nordea,c1-main,Personkonto,checking,2026-09-19,-292.71,Kortköp 260917 KLARNA*ARKET,spend.shopping
+t0192,c1,Nordea,c1-main,Personkonto,checking,2026-09-19,-73.09,Kortköp 260917 CP COMBOIOS DE PORTUGAL EUR 6.40,spend.transport
+t0193,c1,Nordea,c1-main,Personkonto,checking,2026-09-20,-373.43,Kortköp 260918 TIME OUT MARKET LISBOA EUR 32.70,spend.dining
+t0194,c1,Nordea,c1-main,Personkonto,checking,2026-09-21,-330.38,Kortköp 260919 UBER *TRIP LISBOA EUR 28.93,spend.transport
+t0195,c1,Nordea,c1-main,Personkonto,checking,2026-09-22,-54.69,Kortköp 260920 ESPRESSO HOUSE 1123,spend.dining
+t0196,c1,Nordea,c1-main,Personkonto,checking,2026-09-23,-452.94,Kortköp 260922 WILLYS SOLNA,spend.groceries
+t0197,c1,Nordea,c1-main,Personkonto,checking,2026-09-25,-3500.00,Överföring Sparkonto 3300 41 22871,transfer.savings
+t0198,c1,Nordea,c1-main,Personkonto,checking,2026-09-25,-1246.86,Kortköp 260924 KLARNA*ARKET,spend.shopping
+t0199,c1,Nordea,c1-main,Personkonto,checking,2026-09-25,-125.00,Swish betalning SALLADSBAREN AB,spend.dining
+t0200,c1,Nordea,c1-main,Personkonto,checking,2026-09-25,36900.00,LÖN,income.employment
+t0201,c1,Nordea,c1-spar,Sparkonto,savings,2026-09-25,3500.00,Överföring Från 3300 41 18204,transfer.savings
+t0202,c1,Nordea,c1-main,Personkonto,checking,2026-09-26,-222.81,Kortköp 260923 WOLT,spend.dining
+t0203,c1,Nordea,c1-main,Personkonto,checking,2026-09-27,-11200.00,Betalning BG HEIMSTADEN AB,spend.housing
+t0204,c1,Nordea,c1-main,Personkonto,checking,2026-09-27,-1399.76,Betalning BG KLARNA AB,credit.loan
+t0205,c1,Nordea,c1-main,Personkonto,checking,2026-09-28,-1650.00,Autogiro CSN,credit.loan
+t0206,c1,Nordea,c1-main,Personkonto,checking,2026-10-01,-549.00,Autogiro SATS SVERIGE AB,spend.leisure
+t0207,c1,Nordea,c1-main,Personkonto,checking,2026-10-02,-350.89,Kortköp 261001 KLARNA*ARKET,spend.shopping
+t0208,c1,Nordea,c1-main,Personkonto,checking,2026-10-03,-399.00,Autogiro TELIA SVERIGE AB,spend.housing
+t0209,c1,Nordea,c1-main,Personkonto,checking,2026-10-05,-1060.00,Kortköp 261002 SL CENTRALEN,spend.transport
+t0210,c1,Nordea,c1-main,Personkonto,checking,2026-10-07,-129.00,Kortköp 261006 SPOTIFY P2F9A1C3,spend.leisure
+t0211,c1,Nordea,c1-main,Personkonto,checking,2026-10-08,-46.02,Kortköp 261005 ESPRESSO HOUSE 1123,spend.dining
+t0212,c1,Nordea,c1-main,Personkonto,checking,2026-10-08,90.00,Swish inbetalning AMIRA H,transfer.person
+t0213,c1,Nordea,c1-main,Personkonto,checking,2026-10-12,-474.79,Betalning BG ELLEVIO AB,spend.housing
+t0214,c1,Nordea,c1-main,Personkonto,checking,2026-10-12,230.00,Swish inbetalning MIKAEL S,transfer.person
+t0215,c1,Nordea,c1-main,Personkonto,checking,2026-10-17,-277.19,Kortköp 261015 WOLT,spend.dining
+t0216,c1,Nordea,c1-main,Personkonto,checking,2026-10-18,-149.00,Kortköp 261015 NETFLIX.COM,spend.leisure
+t0217,c1,Nordea,c1-main,Personkonto,checking,2026-10-20,-333.97,Kortköp 261017 COOP KONSUM ZINKENSDAMM,spend.groceries
+t0218,c1,Nordea,c1-main,Personkonto,checking,2026-10-20,-80.48,Kortköp 261018 ZETTLE_*KAFE SOLROS,spend.dining
+t0219,c1,Nordea,c1-main,Personkonto,checking,2026-10-21,-154.03,Kortköp 261019 FOODORA AB,spend.dining
+t0220,c1,Nordea,c1-main,Personkonto,checking,2026-10-22,-383.84,Kortköp 261019 ICA NARA SODERMALM,spend.groceries
+t0221,c1,Nordea,c1-main,Personkonto,checking,2026-10-22,-151.82,Kortköp 261021 FOODORA AB,spend.dining
+t0222,c1,Nordea,c1-main,Personkonto,checking,2026-10-23,-3500.00,Överföring Sparkonto 3300 41 22871,transfer.savings
+t0223,c1,Nordea,c1-main,Personkonto,checking,2026-10-23,-33.43,Kortköp 261021 VOI TECHNOLOGY AB,spend.transport
+t0224,c1,Nordea,c1-main,Personkonto,checking,2026-10-23,36900.00,LÖN,income.employment
+t0225,c1,Nordea,c1-spar,Sparkonto,savings,2026-10-23,3500.00,Överföring Från 3300 41 18204,transfer.savings
+t0226,c1,Nordea,c1-main,Personkonto,checking,2026-10-24,-331.97,Kortköp 261023 ICA SUPERMARKET HORNSTULL,spend.groceries
+t0227,c1,Nordea,c1-main,Personkonto,checking,2026-10-24,-276.16,Kortköp 261021 WOLT,spend.dining
+t0228,c1,Nordea,c1-main,Personkonto,checking,2026-10-24,-204.78,Kortköp 261021 FOODORA AB,spend.dining
+t0229,c1,Nordea,c1-main,Personkonto,checking,2026-10-24,-157.02,Kortköp 261022 WOLT,spend.dining
+t0230,c1,Nordea,c1-main,Personkonto,checking,2026-10-26,-229.22,Kortköp 261023 ICA NARA SODERMALM,spend.groceries
+t0231,c1,Nordea,c1-main,Personkonto,checking,2026-10-26,-44.52,Kortköp 261023 VOI TECHNOLOGY AB,spend.transport
+t0232,c1,Nordea,c1-main,Personkonto,checking,2026-10-27,-11200.00,Betalning BG HEIMSTADEN AB,spend.housing
+t0233,c1,Nordea,c1-main,Personkonto,checking,2026-10-27,-1171.47,Betalning BG KLARNA AB,credit.loan
+t0234,c1,Nordea,c1-main,Personkonto,checking,2026-10-27,-167.46,Kortköp 261026 APOTEK HJARTAT,spend.health
+t0235,c1,Nordea,c1-main,Personkonto,checking,2026-10-28,-1650.00,Autogiro CSN,credit.loan
+t0236,c1,Nordea,c1-main,Personkonto,checking,2026-10-29,-396.49,Kortköp 261026 ICA NARA SODERMALM,spend.groceries
+t0237,c1,Nordea,c1-main,Personkonto,checking,2026-10-29,-35.95,Kortköp 261028 VOI TECHNOLOGY AB,spend.transport
+t0238,c1,Nordea,c1-main,Personkonto,checking,2026-10-30,-588.42,Kortköp 261028 ICA NARA SODERMALM,spend.groceries
+t0239,c1,Nordea,c1-main,Personkonto,checking,2026-10-30,-107.69,Kortköp 261028 ZETTLE_*KAFE SOLROS,spend.dining
+t0240,c1,Nordea,c1-main,Personkonto,checking,2026-10-31,-845.19,Kortköp 261030 KLARNA*ARKET,spend.shopping
+t0241,c1,Nordea,c1-spar,Sparkonto,savings,2026-10-31,412.37,Ränta,income.capital
+t0242,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-02,-450.00,TRUSTLY*UNIBET,spend.gambling
+t0243,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-02,-265.88,WILLYS GBG HISINGEN,spend.groceries
+t0244,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-03,-672.48,PREEM HISINGEN,spend.transport
+t0245,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-04,-144.16,MAX GBG NORDSTAN,spend.dining
+t0246,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-07,-773.23,INGO BACKAPLAN,spend.transport
+t0247,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-08,550.00,SWISH FRÅN FREDRIK A,transfer.person
+t0248,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-09,-109.00,AUTOGIRO VIAPLAY GROUP,spend.leisure
+t0249,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-09,-286.88,PAYPAL *STEAMGAMES,spend.leisure
+t0250,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-09,-52.27,ESPRESSO HOUSE 2210,spend.dining
+t0251,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-15,-505.72,CIRCLE K GBG,spend.transport
+t0252,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-18,-500.00,UTTAG BANKOMAT GBG,transfer.cash
+t0253,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-18,-500.00,UTTAG BANKOMAT GBG,transfer.cash
+t0254,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-18,-299.00,AUTOGIRO TELE2 SVERIGE AB,spend.housing
+t0255,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-19,-349.16,HEMKOP LINNEGATAN,spend.groceries
+t0256,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-19,-61.51,EASYPARK,spend.transport
+t0257,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-23,-870.96,CIRCLE K GBG,spend.transport
+t0258,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-23,-192.35,LIDL GBG FRÖLUNDA,spend.groceries
+t0259,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-24,-68.85,ESPRESSO HOUSE 2210,spend.dining
+t0260,c2,Swedbank,c2-buffert,Buffert,checking,2026-05-25,2000.00,"ÖVERFÖRING 8327-9,912 345 678-1",transfer.savings
+t0261,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-25,-2000.00,"ÖVERFÖRING 8327-9,912 345 670-3",transfer.savings
+t0262,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-25,30700.00,LÖN VÄSTKUST BIL AB,income.employment
+t0263,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-26,-1900.00,TRUSTLY*UNIBET,spend.gambling
+t0264,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-26,-150.00,SWISH TILL EMIR K,transfer.person
+t0265,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-26,-68.94,EASYPARK,spend.transport
+t0266,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-27,-2890.00,AUTOGIRO SANTANDER CONSUMER,credit.loan
+t0267,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-27,-2100.00,BG RESURS BANK AB,credit.loan
+t0268,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-28,-8450.00,BG BOSTADSBOLAGET,spend.housing
+t0269,c2,Swedbank,c2-lon,Lönekonto,checking,2026-05-28,-1640.00,BG NORDAX BANK AB,credit.loan
+t0270,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-30,-1759.76,JULA GBG,spend.shopping
+t0271,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-30,-76.58,EASYPARK,spend.transport
+t0272,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-31,-834.18,HEMKOP LINNEGATAN,spend.groceries
+t0273,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-31,-706.60,BAUHAUS GBG,spend.shopping
+t0274,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-05-31,-145.13,SUMUP *FOODTRUCK GBG,spend.dining
+t0275,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-01,-501.90,ICA MAXI BACKAPLAN,spend.groceries
+t0276,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-01,-156.90,MAX GBG NORDSTAN,spend.dining
+t0277,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-01,-136.82,BURGER KING GBG,spend.dining
+t0278,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-02,-749.22,BYGGMAX GBG,spend.shopping
+t0279,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-03,-179.29,PAYPAL *STEAMGAMES,spend.leisure
+t0280,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-03,-128.36,MAX GBG NORDSTAN,spend.dining
+t0281,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-04,-1700.00,TRUSTLY*UNIBET,spend.gambling
+t0282,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-05,-500.00,SWISH TILL FREDRIK A,transfer.person
+t0283,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-05,-120.41,BURGER KING GBG,spend.dining
+t0284,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-05,-59.93,ESPRESSO HOUSE 2210,spend.dining
+t0285,c2,Swedbank,c2-buffert,Buffert,checking,2026-06-06,-2500.00,"ÖVERFÖRING 8327-9,912 345 678-1",transfer.savings
+t0286,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-06,2500.00,"ÖVERFÖRING 8327-9,912 345 670-3",transfer.savings
+t0287,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-06,-457.72,CIRCLE K GBG,spend.transport
+t0288,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-06,-293.84,ICA MAXI BACKAPLAN,spend.groceries
+t0289,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-07,-800.00,UTTAG BANKOMAT GBG,transfer.cash
+t0290,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-07,-871.32,WILLYS GBG HISINGEN,spend.groceries
+t0291,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-09,-109.00,AUTOGIRO VIAPLAY GROUP,spend.leisure
+t0292,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-09,-672.89,CIRCLE K GBG,spend.transport
+t0293,c2,Swedbank,c2-buffert,Buffert,checking,2026-06-10,-4000.00,"ÖVERFÖRING 8327-9,912 345 678-1",transfer.savings
+t0294,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-10,-1000.00,PAYPAL *BETSSON,spend.gambling
+t0295,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-10,4000.00,"ÖVERFÖRING 8327-9,912 345 670-3",transfer.savings
+t0296,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-10,-247.21,FOODORA AB,spend.dining
+t0297,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-10,-48.08,ESPRESSO HOUSE 2210,spend.dining
+t0298,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-10,-46.85,ESPRESSO HOUSE 2210,spend.dining
+t0299,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-11,-51.71,ESPRESSO HOUSE 2210,spend.dining
+t0300,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-13,-800.00,UTTAG BANKOMAT GBG,transfer.cash
+t0301,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-13,-871.12,INGO BACKAPLAN,spend.transport
+t0302,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-15,-1800.00,TRUSTLY*UNIBET,spend.gambling
+t0303,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-15,-1300.00,TRUSTLY*UNIBET,spend.gambling
+t0304,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-17,-1200.00,TRUSTLY*UNIBET,spend.gambling
+t0305,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-17,-205.68,KORTKÖP 260614 SVENSKA SPEL,spend.gambling
+t0306,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-18,-299.00,AUTOGIRO TELE2 SVERIGE AB,spend.housing
+t0307,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-18,-1390.75,BYGGMAX GBG,spend.shopping
+t0308,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-19,-85.42,EASYPARK,spend.transport
+t0309,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-20,-7834.64,BG SEB KORT MASTERCARD,credit.loan
+t0310,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-21,7834.64,INBETALNING TACK,transfer.own
+t0311,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-23,-222.22,LIDL GBG FRÖLUNDA,spend.groceries
+t0312,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-23,-102.11,BURGER KING GBG,spend.dining
+t0313,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-25,100.00,SWISH FRÅN FREDRIK A,transfer.person
+t0314,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-25,35100.00,LÖN VÄSTKUST BIL AB,income.employment
+t0315,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-25,-34.53,EASYPARK,spend.transport
+t0316,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-26,-966.31,WILLYS GBG HISINGEN,spend.groceries
+t0317,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-27,-2890.00,AUTOGIRO SANTANDER CONSUMER,credit.loan
+t0318,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-27,-700.00,TRUSTLY*UNIBET,spend.gambling
+t0319,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-27,1850.00,UNIBET UTBETALNING,spend.gambling
+t0320,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-28,-8450.00,BG BOSTADSBOLAGET,spend.housing
+t0321,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-28,-3050.00,AUTOGIRO ANYFIN AB,credit.loan
+t0322,c2,Swedbank,c2-lon,Lönekonto,checking,2026-06-29,-1450.00,TRUSTLY*UNIBET,spend.gambling
+t0323,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-06-30,-937.08,HEMKOP LINNEGATAN,spend.groceries
+t0324,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-03,-258.33,KORTKÖP 260630 SVENSKA SPEL,spend.gambling
+t0325,c2,Swedbank,c2-buffert,Buffert,checking,2026-07-04,-3500.00,"ÖVERFÖRING 8327-9,912 345 678-1",transfer.savings
+t0326,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-04,-149.88,KORTKÖP 260701 SVENSKA SPEL,spend.gambling
+t0327,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-04,3500.00,"ÖVERFÖRING 8327-9,912 345 670-3",transfer.savings
+t0328,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-04,-964.83,HEMKOP LINNEGATAN,spend.groceries
+t0329,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-06,-900.00,PAYPAL *BETSSON,spend.gambling
+t0330,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-08,-236.78,ELGIGANTEN BACKAPLAN,spend.shopping
+t0331,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-09,-109.00,AUTOGIRO VIAPLAY GROUP,spend.leisure
+t0332,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-09,-190.90,PAYPAL *STEAMGAMES,spend.leisure
+t0333,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-10,-136.90,KORTKÖP 260707 SVENSKA SPEL,spend.gambling
+t0334,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-11,750.00,UNIBET UTBETALNING,spend.gambling
+t0335,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-11,-480.83,CIRCLE K GBG,spend.transport
+t0336,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-11,-280.59,FOODORA AB,spend.dining
+t0337,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-11,-251.69,FOODORA AB,spend.dining
+t0338,c2,Swedbank,c2-buffert,Buffert,checking,2026-07-12,-3500.00,"ÖVERFÖRING 8327-9,912 345 678-1",transfer.savings
+t0339,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-12,-1050.00,TRUSTLY*UNIBET,spend.gambling
+t0340,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-12,-324.21,KORTKÖP 260710 ATG.SE,spend.gambling
+t0341,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-12,3500.00,"ÖVERFÖRING 8327-9,912 345 670-3",transfer.savings
+t0342,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-12,-680.49,INGO BACKAPLAN,spend.transport
+t0343,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-12,-445.00,LISEBERG AB,spend.leisure
+t0344,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-12,-258.85,FOODORA AB,spend.dining
+t0345,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-13,-700.00,PAYPAL *BETSSON,spend.gambling
+t0346,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-13,-591.51,CIRCLE K GBG,spend.transport
+t0347,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-13,-258.94,LISEBERG AB,spend.leisure
+t0348,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-14,-1550.00,TRUSTLY*UNIBET,spend.gambling
+t0349,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-14,-450.00,TRUSTLY*UNIBET,spend.gambling
+t0350,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-14,850.00,UNIBET UTBETALNING,spend.gambling
+t0351,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-14,-143.58,MAX GBG NORDSTAN,spend.dining
+t0352,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-15,-269.84,KORTKÖP 260712 SVENSKA SPEL,spend.gambling
+t0353,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-16,-45.58,EASYPARK,spend.transport
+t0354,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-17,-800.00,UTTAG BANKOMAT GBG,transfer.cash
+t0355,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-17,-968.23,WILLYS GBG HISINGEN,spend.groceries
+t0356,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-18,-1100.00,TRUSTLY*UNIBET,spend.gambling
+t0357,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-18,-299.00,AUTOGIRO TELE2 SVERIGE AB,spend.housing
+t0358,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-20,-9331.99,BG SEB KORT MASTERCARD,credit.loan
+t0359,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-20,-850.00,TRUSTLY*UNIBET,spend.gambling
+t0360,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-21,-1050.00,TRUSTLY*UNIBET,spend.gambling
+t0361,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-21,9331.99,INBETALNING TACK,transfer.own
+t0362,c2,Swedbank,c2-buffert,Buffert,checking,2026-07-22,-2000.00,"ÖVERFÖRING 8327-9,912 345 678-1",transfer.savings
+t0363,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-22,2000.00,"ÖVERFÖRING 8327-9,912 345 670-3",transfer.savings
+t0364,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-22,-168.07,BURGER KING GBG,spend.dining
+t0365,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-24,34500.00,LÖN VÄSTKUST BIL AB,income.employment
+t0366,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-24,-64.86,EASYPARK,spend.transport
+t0367,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-25,-500.00,UTTAG BANKOMAT GBG,transfer.cash
+t0368,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-25,-537.66,WILLYS GBG HISINGEN,spend.groceries
+t0369,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-26,-440.47,LIDL GBG FRÖLUNDA,spend.groceries
+t0370,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-27,-2890.00,AUTOGIRO SANTANDER CONSUMER,credit.loan
+t0371,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-28,-8450.00,BG BOSTADSBOLAGET,spend.housing
+t0372,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-28,-3050.00,AUTOGIRO ANYFIN AB,credit.loan
+t0373,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-29,-248.38,KORTKÖP 260727 ATG.SE,spend.gambling
+t0374,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-29,-636.84,HEMKOP LINNEGATAN,spend.groceries
+t0375,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-30,-1480.00,BG INTRUM SVERIGE AB,credit.collections
+t0376,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-30,-436.20,ICA MAXI BACKAPLAN,spend.groceries
+t0377,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-31,-550.00,SWISH TILL FREDRIK A,transfer.person
+t0378,c2,Swedbank,c2-lon,Lönekonto,checking,2026-07-31,-500.00,SWISH TILL DANIEL R,transfer.person
+t0379,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-07-31,-1767.95,BAUHAUS GBG,spend.shopping
+t0380,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-03,-300.00,PAYPAL *BETSSON,spend.gambling
+t0381,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-03,-256.58,KORTKÖP 260802 SVENSKA SPEL,spend.gambling
+t0382,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-03,-256.29,KORTKÖP 260731 SVENSKA SPEL,spend.gambling
+t0383,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-03,-482.76,WILLYS GBG HISINGEN,spend.groceries
+t0384,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-04,-500.00,UTTAG BANKOMAT GBG,transfer.cash
+t0385,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-04,-234.56,FOODORA AB,spend.dining
+t0386,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-06,600.00,SWISH FRÅN FREDRIK A,transfer.person
+t0387,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-07,-473.90,CIRCLE K GBG,spend.transport
+t0388,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-08,-257.53,KORTKÖP 260806 SVENSKA SPEL,spend.gambling
+t0389,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-08,-290.50,ELGIGANTEN BACKAPLAN,spend.shopping
+t0390,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-08,-32.70,EASYPARK,spend.transport
+t0391,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-09,-109.00,AUTOGIRO VIAPLAY GROUP,spend.leisure
+t0392,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-13,-104.38,SUMUP *FOODTRUCK GBG,spend.dining
+t0393,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-14,-836.89,INGO BACKAPLAN,spend.transport
+t0394,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-14,-214.79,FOODORA AB,spend.dining
+t0395,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-16,-1950.00,TRUSTLY*UNIBET,spend.gambling
+t0396,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-16,-1750.00,TRUSTLY*UNIBET,spend.gambling
+t0397,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-16,-450.00,TRUSTLY*UNIBET,spend.gambling
+t0398,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-16,-72.69,KORTKÖP 260813 SVENSKA SPEL,spend.gambling
+t0399,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-16,-932.21,LIDL GBG FRÖLUNDA,spend.groceries
+t0400,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-18,-500.00,TRUSTLY*UNIBET,spend.gambling
+t0401,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-18,-299.00,AUTOGIRO TELE2 SVERIGE AB,spend.housing
+t0402,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-19,-1500.00,TRUSTLY*UNIBET,spend.gambling
+t0403,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-20,-9849.85,BG SEB KORT MASTERCARD,credit.loan
+t0404,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-20,-400.00,PAYPAL *BETSSON,spend.gambling
+t0405,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-21,9849.85,INBETALNING TACK,transfer.own
+t0406,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-22,-124.62,KORTKÖP 260819 SVENSKA SPEL,spend.gambling
+t0407,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-22,-146.16,BURGER KING GBG,spend.dining
+t0408,c2,Swedbank,c2-buffert,Buffert,checking,2026-08-24,-1500.00,"ÖVERFÖRING 8327-9,912 345 678-1",transfer.savings
+t0409,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-24,400.00,SWISH FRÅN EMIR K,transfer.person
+t0410,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-24,600.00,UNIBET UTBETALNING,spend.gambling
+t0411,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-24,1500.00,"ÖVERFÖRING 8327-9,912 345 670-3",transfer.savings
+t0412,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-24,-582.29,WILLYS GBG HISINGEN,spend.groceries
+t0413,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-25,35950.00,LÖN VÄSTKUST BIL AB,income.employment
+t0414,c2,Swedbank,c2-buffert,Buffert,checking,2026-08-27,-3000.00,"ÖVERFÖRING 8327-9,912 345 678-1",transfer.savings
+t0415,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-27,-2890.00,AUTOGIRO SANTANDER CONSUMER,credit.loan
+t0416,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-27,3000.00,"ÖVERFÖRING 8327-9,912 345 670-3",transfer.savings
+t0417,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-27,-160.87,SUMUP *FOODTRUCK GBG,spend.dining
+t0418,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-28,-8450.00,BG BOSTADSBOLAGET,spend.housing
+t0419,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-28,-3050.00,AUTOGIRO ANYFIN AB,credit.loan
+t0420,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-29,-414.94,BYGGMAX GBG,spend.shopping
+t0421,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-29,-308.48,FOODORA AB,spend.dining
+t0422,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-30,-800.00,UTTAG BANKOMAT GBG,transfer.cash
+t0423,c2,Swedbank,c2-lon,Lönekonto,checking,2026-08-31,-1480.00,BG INTRUM SVERIGE AB,credit.collections
+t0424,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-08-31,-310.42,FOODORA AB,spend.dining
+t0425,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-01,-506.40,ICA MAXI BACKAPLAN,spend.groceries
+t0426,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-01,-487.49,WILLYS GBG HISINGEN,spend.groceries
+t0427,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-01,-137.07,MAX GBG NORDSTAN,spend.dining
+t0428,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-02,-1000.00,UTTAG BANKOMAT GBG,transfer.cash
+t0429,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-04,-398.98,LIDL GBG FRÖLUNDA,spend.groceries
+t0430,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-09,-1500.00,TRUSTLY*UNIBET,spend.gambling
+t0431,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-09,-109.00,AUTOGIRO VIAPLAY GROUP,spend.leisure
+t0432,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-09,-1333.38,ELGIGANTEN BACKAPLAN,spend.shopping
+t0433,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-12,-575.53,WILLYS GBG HISINGEN,spend.groceries
+t0434,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-16,300.00,SWISH FRÅN FREDRIK A,transfer.person
+t0435,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-17,-613.09,PREEM HISINGEN,spend.transport
+t0436,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-17,-399.15,ICA MAXI BACKAPLAN,spend.groceries
+t0437,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-18,-299.00,AUTOGIRO TELE2 SVERIGE AB,spend.housing
+t0438,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-18,-81.08,EASYPARK,spend.transport
+t0439,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-20,-5525.85,BG SEB KORT MASTERCARD,credit.loan
+t0440,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-21,-115.97,SUMUP *FOODTRUCK GBG,spend.dining
+t0441,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-21,5525.85,INBETALNING TACK,transfer.own
+t0442,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-22,-2310.00,BG KRONOFOGDEN,credit.collections
+t0443,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-22,-1295.89,BAUHAUS GBG,spend.shopping
+t0444,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-22,-305.13,FOODORA AB,spend.dining
+t0445,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-24,-690.00,TICKETMASTER SE,spend.leisure
+t0446,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-24,-235.76,FOODORA AB,spend.dining
+t0447,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-25,33300.00,LÖN VÄSTKUST BIL AB,income.employment
+t0448,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-25,-386.20,PAYPAL *STEAMGAMES,spend.leisure
+t0449,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-26,-700.00,PAYPAL *BETSSON,spend.gambling
+t0450,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-26,-369.30,KORTKÖP 260923 SVENSKA SPEL,spend.gambling
+t0451,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-27,-2890.00,AUTOGIRO SANTANDER CONSUMER,credit.loan
+t0452,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-27,-899.64,HEMKOP LINNEGATAN,spend.groceries
+t0453,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-28,-8450.00,BG BOSTADSBOLAGET,spend.housing
+t0454,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-28,-3050.00,AUTOGIRO ANYFIN AB,credit.loan
+t0455,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-28,-1000.00,UTTAG BANKOMAT GBG,transfer.cash
+t0456,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-28,-875.84,WILLYS GBG HISINGEN,spend.groceries
+t0457,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-28,-542.45,INGO BACKAPLAN,spend.transport
+t0458,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-28,-107.29,BURGER KING GBG,spend.dining
+t0459,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-28,-94.65,EASYPARK,spend.transport
+t0460,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-29,-201.31,LIDL GBG FRÖLUNDA,spend.groceries
+t0461,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-09-29,-167.99,BURGER KING GBG,spend.dining
+t0462,c2,Swedbank,c2-lon,Lönekonto,checking,2026-09-30,550.00,SWISH FRÅN DANIEL R,transfer.person
+t0463,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-03,-77.69,EASYPARK,spend.transport
+t0464,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-04,-1000.00,UTTAG BANKOMAT GBG,transfer.cash
+t0465,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-04,-400.00,SWISH TILL FREDRIK A,transfer.person
+t0466,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-06,-439.92,HEMKOP LINNEGATAN,spend.groceries
+t0467,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-07,-467.75,KORTKÖP 261006 ATG.SE,spend.gambling
+t0468,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-07,-75.57,ESPRESSO HOUSE 2210,spend.dining
+t0469,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-09,-109.00,AUTOGIRO VIAPLAY GROUP,spend.leisure
+t0470,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-11,-163.21,MAX GBG NORDSTAN,spend.dining
+t0471,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-11,-74.71,EASYPARK,spend.transport
+t0472,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-13,-113.27,MAX GBG NORDSTAN,spend.dining
+t0473,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-14,-279.26,LIDL GBG FRÖLUNDA,spend.groceries
+t0474,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-14,-157.43,SUMUP *FOODTRUCK GBG,spend.dining
+t0475,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-16,-727.13,INGO BACKAPLAN,spend.transport
+t0476,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-17,-69.25,ESPRESSO HOUSE 2210,spend.dining
+t0477,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-18,-299.00,AUTOGIRO TELE2 SVERIGE AB,spend.housing
+t0478,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-18,-812.32,CIRCLE K GBG,spend.transport
+t0479,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-18,-744.27,ICA MAXI BACKAPLAN,spend.groceries
+t0480,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-18,-175.52,FOODORA AB,spend.dining
+t0481,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-19,-101.48,MAX GBG NORDSTAN,spend.dining
+t0482,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-20,-10450.29,BG SEB KORT MASTERCARD,credit.loan
+t0483,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-20,-491.35,ICA MAXI BACKAPLAN,spend.groceries
+t0484,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-20,-113.56,BURGER KING GBG,spend.dining
+t0485,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-21,10450.29,INBETALNING TACK,transfer.own
+t0486,c2,Swedbank,c2-buffert,Buffert,checking,2026-10-23,1000.00,"ÖVERFÖRING 8327-9,912 345 678-1",transfer.savings
+t0487,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-23,-1000.00,"ÖVERFÖRING 8327-9,912 345 670-3",transfer.savings
+t0488,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-23,34550.00,LÖN VÄSTKUST BIL AB,income.employment
+t0489,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-27,-2890.00,AUTOGIRO SANTANDER CONSUMER,credit.loan
+t0490,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-27,-1000.00,UTTAG BANKOMAT GBG,transfer.cash
+t0491,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-27,-400.00,SWISH TILL EMIR K,transfer.person
+t0492,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-27,-1090.44,BYGGMAX GBG,spend.shopping
+t0493,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-28,-8450.00,BG BOSTADSBOLAGET,spend.housing
+t0494,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-28,-3050.00,AUTOGIRO ANYFIN AB,credit.loan
+t0495,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-28,-821.77,BAUHAUS GBG,spend.shopping
+t0496,c2,Swedbank,c2-lon,Lönekonto,checking,2026-10-29,-1480.00,BG INTRUM SVERIGE AB,credit.collections
+t0497,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-30,-331.12,PAYPAL *STEAMGAMES,spend.leisure
+t0498,c2,Swedbank,c2-mc,Mastercard,credit_card,2026-10-31,-155.26,SUMUP *FOODTRUCK GBG,spend.dining
+t0499,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-04,-795.00,SKÅNETRAFIKEN,spend.transport
+t0500,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-04,-911.57,COOP FORUM BURLÖV,spend.groceries
+t0501,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-04,-586.56,WILLYS MALMÖ JÄGERSRO,spend.groceries
+t0502,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-05,-429.00,TELENOR SVERIGE,spend.housing
+t0503,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-05,-305.34,CITY GROSS MALMÖ,spend.groceries
+t0504,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-06,-705.87,CIRCLE K MALMÖ,spend.transport
+t0505,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-07,-523.75,CITY GROSS MALMÖ,spend.groceries
+t0506,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-08,-274.26,APOTEA.SE,spend.health
+t0507,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-10,-664.36,CITY GROSS MALMÖ,spend.groceries
+t0508,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-11,-48.98,ESPRESSO HOUSE 3015,spend.dining
+t0509,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-14,-622.08,E.ON ENERGILÖSNINGAR,spend.housing
+t0510,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-16,-1392.76,COOP FORUM BURLÖV,spend.groceries
+t0511,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-17,-97.31,IZ *KAFE LEVE,spend.dining
+t0512,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-20,2650.00,FÖRSÄKRINGSKASSAN,income.public
+t0513,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-20,-1096.42,ICA KVANTUM MALMBORGS,spend.groceries
+t0514,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-21,-772.87,COOP FORUM BURLÖV,spend.groceries
+t0515,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-25,-9000.00,Överföring Hushållskonto,transfer.own
+t0516,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-25,-500.00,Överföring Sparkonto barn,transfer.savings
+t0517,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-25,34800.00,REGION SKÅNE,income.employment
+t0518,c3,Handelsbanken,c3-barn,Sparkonto barn,savings,2026-05-25,500.00,Överföring Allkonto,transfer.savings
+t0519,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-25,-55.59,ESPRESSO HOUSE 3015,spend.dining
+t0520,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-25,9000.00,Överföring Allkonto,transfer.own
+t0521,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-26,-669.41,KLARNA AB,credit.loan
+t0522,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-26,200.00,Swish LINNEA P,transfer.person
+t0523,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-26,6500.00,Swish JONAS K hyra,spend.housing
+t0524,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-27,-12400.00,MKB FASTIGHETS AB,spend.housing
+t0525,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-27,-1180.76,WILLYS MALMÖ JÄGERSRO,spend.groceries
+t0526,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-27,-245.36,NETTO MALMÖ VÄSTRA,spend.groceries
+t0527,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-28,-1190.00,MALMÖ STAD BARNOMSORG,spend.family
+t0528,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-29,350.00,Swish LINNEA P,transfer.person
+t0529,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-05-29,-679.98,OKQ8 BULLTOFTA,spend.transport
+t0530,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-05-31,-351.92,APOTEK HJÄRTAT MALMÖ,spend.health
+t0531,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-03,-795.00,SKÅNETRAFIKEN,spend.transport
+t0532,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-05,-429.00,TELENOR SVERIGE,spend.housing
+t0533,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-08,-450.00,Swish ANNA B,transfer.person
+t0534,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-08,-655.47,CIRCLE K MALMÖ,spend.transport
+t0535,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-09,-379.66,NETTO MALMÖ VÄSTRA,spend.groceries
+t0536,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-09,-99.51,ESPRESSO HOUSE 3015,spend.dining
+t0537,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-10,-368.37,MAX MALMÖ STORTORGET,spend.dining
+t0538,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-11,-470.45,ÅHLÉNS MALMÖ,spend.shopping
+t0539,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-12,-427.36,KLARNA*BOOZT,spend.shopping
+t0540,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-12,-508.18,OKQ8 BULLTOFTA,spend.transport
+t0541,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-14,-687.95,E.ON ENERGILÖSNINGAR,spend.housing
+t0542,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-14,-662.46,ICA KVANTUM MALMBORGS,spend.groceries
+t0543,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-16,-527.17,CITY GROSS MALMÖ,spend.groceries
+t0544,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-16,-358.53,MAX MALMÖ STORTORGET,spend.dining
+t0545,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-19,2650.00,FÖRSÄKRINGSKASSAN,income.public
+t0546,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-20,-527.14,ICA KVANTUM MALMBORGS,spend.groceries
+t0547,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-23,-1405.58,WILLYS MALMÖ JÄGERSRO,spend.groceries
+t0548,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-24,-510.89,QLIRO AB,credit.loan
+t0549,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-24,-899.14,ICA KVANTUM MALMBORGS,spend.groceries
+t0550,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-24,-90.46,ESPRESSO HOUSE 3015,spend.dining
+t0551,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-25,-9000.00,Överföring Hushållskonto,transfer.own
+t0552,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-25,-500.00,Överföring Sparkonto barn,transfer.savings
+t0553,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-25,34800.00,REGION SKÅNE,income.employment
+t0554,c3,Handelsbanken,c3-barn,Sparkonto barn,savings,2026-06-25,500.00,Överföring Allkonto,transfer.savings
+t0555,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-25,9000.00,Överföring Allkonto,transfer.own
+t0556,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-26,-937.72,KLARNA AB,credit.loan
+t0557,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-26,6500.00,Swish JONAS K hyra,spend.housing
+t0558,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-27,-12400.00,MKB FASTIGHETS AB,spend.housing
+t0559,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-06-27,-347.87,ICA KVANTUM MALMBORGS,spend.groceries
+t0560,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-06-28,-1190.00,MALMÖ STAD BARNOMSORG,spend.family
+t0561,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-02,-795.00,SKÅNETRAFIKEN,spend.transport
+t0562,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-02,-389.55,ICA KVANTUM MALMBORGS,spend.groceries
+t0563,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-03,-61.19,ZETTLE_*STRANDCAFET RIBBAN,spend.dining
+t0564,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-04,-228.78,KLARNA*BOOZT,spend.shopping
+t0565,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-04,-141.45,IZ *KAFE LEVE,spend.dining
+t0566,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-05,-429.00,TELENOR SVERIGE,spend.housing
+t0567,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-05,-84.45,IZ *KAFE LEVE,spend.dining
+t0568,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-06,-544.09,OKQ8 BULLTOFTA,spend.transport
+t0569,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-07,-590.00,ØRESUNDSBRON,spend.transport
+t0570,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-08,-636.66,"NETTO VEJLE DKK 416,12",spend.groceries
+t0571,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-09,-1897.20,"LEGOLAND BILLUND DKK 1240,00",spend.leisure
+t0572,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-09,-343.47,"MCDONALDS BILLUND DKK 224,49",spend.dining
+t0573,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-09,-886.85,NETTO MALMÖ VÄSTRA,spend.groceries
+t0574,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-10,-1361.70,"LALANDIA BILLUND DKK 890,00",spend.leisure
+t0575,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-11,-452.39,"REMA 1000 VEJLE DKK 295,68",spend.groceries
+t0576,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-11,-853.64,CITY GROSS MALMÖ,spend.groceries
+t0577,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-12,-978.70,"Q8 KOLDING DKK 639,67",spend.transport
+t0578,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-12,-590.00,ØRESUNDSBRON,spend.transport
+t0579,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-14,-703.06,E.ON ENERGILÖSNINGAR,spend.housing
+t0580,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-15,-98.84,ESPRESSO HOUSE 3015,spend.dining
+t0581,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-16,-526.40,CIRCLE K MALMÖ,spend.transport
+t0582,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-17,-841.11,KLARNA*BOOZT,spend.shopping
+t0583,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-17,-741.40,ICA KVANTUM MALMBORGS,spend.groceries
+t0584,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-19,-435.31,ICA KVANTUM MALMBORGS,spend.groceries
+t0585,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-20,2650.00,FÖRSÄKRINGSKASSAN,income.public
+t0586,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-20,-362.87,ICA KVANTUM MALMBORGS,spend.groceries
+t0587,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-21,-584.24,ICA KVANTUM MALMBORGS,spend.groceries
+t0588,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-24,-9000.00,Överföring Hushållskonto,transfer.own
+t0589,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-24,-500.00,Överföring Sparkonto barn,transfer.savings
+t0590,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-24,34800.00,REGION SKÅNE,income.employment
+t0591,c3,Handelsbanken,c3-barn,Sparkonto barn,savings,2026-07-24,500.00,Överföring Allkonto,transfer.savings
+t0592,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-24,-1096.96,COOP FORUM BURLÖV,spend.groceries
+t0593,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-24,9000.00,Överföring Allkonto,transfer.own
+t0594,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-25,-682.70,NETTO MALMÖ VÄSTRA,spend.groceries
+t0595,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-25,-89.80,ESPRESSO HOUSE 3015,spend.dining
+t0596,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-26,-588.89,KLARNA AB,credit.loan
+t0597,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-26,6500.00,Swish JONAS K hyra,spend.housing
+t0598,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-27,-12400.00,MKB FASTIGHETS AB,spend.housing
+t0599,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-28,-1190.00,MALMÖ STAD BARNOMSORG,spend.family
+t0600,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-28,-350.00,Swish ANNA B,transfer.person
+t0601,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-07-28,-621.24,CITY GROSS MALMÖ,spend.groceries
+t0602,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-07-31,-356.84,APOTEK HJÄRTAT MALMÖ,spend.health
+t0603,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-03,400.00,Swish LINNEA P,transfer.person
+t0604,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-04,-795.00,SKÅNETRAFIKEN,spend.transport
+t0605,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-05,-429.00,TELENOR SVERIGE,spend.housing
+t0606,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-05,-1293.63,WILLYS MALMÖ JÄGERSRO,spend.groceries
+t0607,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-06,-433.31,CIRCLE K MALMÖ,spend.transport
+t0608,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-07,-6290.00,IKEA MALMÖ,spend.shopping
+t0609,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-07,-873.38,WILLYS MALMÖ JÄGERSRO,spend.groceries
+t0610,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-08,-1416.08,ICA KVANTUM MALMBORGS,spend.groceries
+t0611,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-08,-511.31,NETTO MALMÖ VÄSTRA,spend.groceries
+t0612,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-10,-402.31,APOTEA.SE,spend.health
+t0613,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-12,-3490.00,MIO MALMÖ,spend.shopping
+t0614,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-14,-697.25,E.ON ENERGILÖSNINGAR,spend.housing
+t0615,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-14,-351.15,COOP FORUM BURLÖV,spend.groceries
+t0616,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-15,-392.94,NETTO MALMÖ VÄSTRA,spend.groceries
+t0617,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-17,-899.00,IKEA MALMÖ,spend.shopping
+t0618,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-18,-1240.00,FOLKTANDVÅRDEN SKÅNE,spend.health
+t0619,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-20,2650.00,FÖRSÄKRINGSKASSAN,income.public
+t0620,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-21,450.00,Swish ANNA B,transfer.person
+t0621,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-24,-377.25,QLIRO AB,credit.loan
+t0622,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-24,-259.05,NETTO MALMÖ VÄSTRA,spend.groceries
+t0623,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-24,-77.42,ESPRESSO HOUSE 3015,spend.dining
+t0624,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-25,-11000.00,Överföring Hushållskonto,transfer.own
+t0625,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-25,-500.00,Överföring Sparkonto barn,transfer.savings
+t0626,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-25,34800.00,REGION SKÅNE,income.employment
+t0627,c3,Handelsbanken,c3-barn,Sparkonto barn,savings,2026-08-25,500.00,Överföring Allkonto,transfer.savings
+t0628,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-25,-1054.80,COOP FORUM BURLÖV,spend.groceries
+t0629,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-25,11000.00,Överföring Allkonto,transfer.own
+t0630,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-26,-731.14,KLARNA AB,credit.loan
+t0631,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-27,-12400.00,MKB FASTIGHETS AB,spend.housing
+t0632,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-28,-1190.00,MALMÖ STAD BARNOMSORG,spend.family
+t0633,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-28,-118.69,ESPRESSO HOUSE 3015,spend.dining
+t0634,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-08-30,-823.31,KLARNA*BOOZT,spend.shopping
+t0635,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-30,-1036.55,WILLYS MALMÖ JÄGERSRO,spend.groceries
+t0636,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-30,-149.51,IZ *KAFE LEVE,spend.dining
+t0637,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-08-31,-548.81,CIRCLE K MALMÖ,spend.transport
+t0638,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-02,-105.43,IZ *KAFE LEVE,spend.dining
+t0639,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-03,-795.00,SKÅNETRAFIKEN,spend.transport
+t0640,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-03,-250.00,KRY,spend.health
+t0641,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-05,-429.00,TELENOR SVERIGE,spend.housing
+t0642,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-05,-191.90,APOTEK HJÄRTAT MALMÖ,spend.health
+t0643,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-07,-437.17,CITY GROSS MALMÖ,spend.groceries
+t0644,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-09,-948.89,WILLYS MALMÖ JÄGERSRO,spend.groceries
+t0645,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-10,-581.95,NETTO MALMÖ VÄSTRA,spend.groceries
+t0646,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-14,-479.49,E.ON ENERGILÖSNINGAR,spend.housing
+t0647,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-17,-1379.46,NETTO MALMÖ VÄSTRA,spend.groceries
+t0648,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-18,-248.32,H&M MALMÖ TRIANGELN,spend.shopping
+t0649,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-18,2650.00,FÖRSÄKRINGSKASSAN,income.public
+t0650,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-19,-972.38,WILLYS MALMÖ JÄGERSRO,spend.groceries
+t0651,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-22,1450.00,Swish JONAS K,transfer.person
+t0652,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-23,-200.24,KLARNA*BOOZT,spend.shopping
+t0653,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-23,-111.50,IZ *KAFE LEVE,spend.dining
+t0654,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-24,-759.71,CIRCLE K MALMÖ,spend.transport
+t0655,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-25,-11000.00,Överföring Hushållskonto,transfer.own
+t0656,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-25,-500.00,Överföring Sparkonto barn,transfer.savings
+t0657,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-25,34800.00,REGION SKÅNE,income.employment
+t0658,c3,Handelsbanken,c3-barn,Sparkonto barn,savings,2026-09-25,500.00,Överföring Allkonto,transfer.savings
+t0659,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-25,11000.00,Överföring Allkonto,transfer.own
+t0660,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-26,-796.00,KLARNA AB,credit.loan
+t0661,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-26,-43.20,ESPRESSO HOUSE 3015,spend.dining
+t0662,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-27,-12400.00,MKB FASTIGHETS AB,spend.housing
+t0663,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-28,-1190.00,MALMÖ STAD BARNOMSORG,spend.family
+t0664,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-09-28,-500.00,Swish ANNA B,transfer.person
+t0665,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-28,-1030.03,CITY GROSS MALMÖ,spend.groceries
+t0666,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-28,-570.56,CIRCLE K MALMÖ,spend.transport
+t0667,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-09-30,-286.06,MAX MALMÖ STORTORGET,spend.dining
+t0668,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-02,-971.88,ICA KVANTUM MALMBORGS,spend.groceries
+t0669,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-03,-795.00,SKÅNETRAFIKEN,spend.transport
+t0670,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-04,-154.10,COOP FORUM BURLÖV,spend.groceries
+t0671,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-05,-429.00,TELENOR SVERIGE,spend.housing
+t0672,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-08,-134.24,APOTEA.SE,spend.health
+t0673,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-10,-250.00,Swish SOFIA M,transfer.person
+t0674,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-10,-673.88,OKQ8 BULLTOFTA,spend.transport
+t0675,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-11,-91.82,IZ *KAFE LEVE,spend.dining
+t0676,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-12,-749.53,CITY GROSS MALMÖ,spend.groceries
+t0677,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-14,-444.74,E.ON ENERGILÖSNINGAR,spend.housing
+t0678,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-16,-114.11,IZ *KAFE LEVE,spend.dining
+t0679,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-19,-385.03,CIRCLE K MALMÖ,spend.transport
+t0680,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-20,2650.00,FÖRSÄKRINGSKASSAN,income.public
+t0681,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-20,-80.81,IZ *KAFE LEVE,spend.dining
+t0682,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-21,-1148.87,CITY GROSS MALMÖ,spend.groceries
+t0683,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-21,-914.44,NETTO MALMÖ VÄSTRA,spend.groceries
+t0684,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-23,-11000.00,Överföring Hushållskonto,transfer.own
+t0685,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-23,-500.00,Överföring Sparkonto barn,transfer.savings
+t0686,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-23,37240.00,REGION SKÅNE,income.employment
+t0687,c3,Handelsbanken,c3-barn,Sparkonto barn,savings,2026-10-23,500.00,Överföring Allkonto,transfer.savings
+t0688,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-23,11000.00,Överföring Allkonto,transfer.own
+t0689,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-24,-682.43,QLIRO AB,credit.loan
+t0690,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-26,-1335.94,KLARNA AB,credit.loan
+t0691,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-26,-877.81,KLARNA*BOOZT,spend.shopping
+t0692,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-27,-12400.00,MKB FASTIGHETS AB,spend.housing
+t0693,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-28,-1190.00,MALMÖ STAD BARNOMSORG,spend.family
+t0694,c3,Handelsbanken,c3-allkonto,Allkonto,checking,2026-10-28,650.00,Swish JONAS K,transfer.person
+t0695,c3,Handelsbanken,c3-hushall,Hushållskonto,checking,2026-10-28,-282.52,CITY GROSS MALMÖ,spend.groceries
+t0696,c3,Handelsbanken,c3-barn,Sparkonto barn,savings,2026-10-31,96.40,Ränta,income.capital
