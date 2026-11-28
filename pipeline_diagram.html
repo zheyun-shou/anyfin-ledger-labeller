@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ledger Labelling Pipeline</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one vertical flow of stages, each stage = description left, measured numbers right; a row-share bar on top */
+:root {
+  --bg: #f6f7fa; --surface: #ffffff; --fg: #18202e; --muted: #5d6878; --line: #d9dee7;
+  --rules: #4d5b70; --ml: #2a63c9; --llm: #8a4bd6; --unk: #a3acb9; --good: #1f8a5b; --bad: #c2413b;
+  --display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --body: "Inter", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #10141c; --surface: #181e29; --fg: #e6eaf1; --muted: #9aa4b3; --line: #2b3342;
+  --rules: #8e9cb3; --ml: #6c9cf0; --llm: #b98af0; --unk: #5f6878; --good: #4cc38a; --bad: #ef7a73; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #10141c; --surface: #181e29; --fg: #e6eaf1; --muted: #9aa4b3; --line: #2b3342;
+  --rules: #8e9cb3; --ml: #6c9cf0; --llm: #b98af0; --unk: #5f6878; --good: #4cc38a; --bad: #ef7a73; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); line-height: 1.5; }
+.wrap { max-width: 920px; margin: 0 auto; padding-block: 32px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 28px; }
+h1, h2 { font-family: var(--display); margin: 0; text-wrap: balance; }
+h1 { font-size: 1.9rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.15rem; }
+.sub { color: var(--muted); margin: 6px 0 0; max-width: 65ch; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.totals { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 14px; }
+.totals div { display: flex; flex-direction: column; }
+.totals b { font-family: var(--mono); font-size: 1.25rem; font-weight: 500; }
+.totals span { color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+.share { display: flex; height: 34px; border-radius: 6px; overflow: hidden; border: 1px solid var(--line); }
+.share div { display: flex; align-items: center; justify-content: center; color: #fff; font: 500 0.75rem var(--mono); white-space: nowrap; overflow: hidden; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.8rem; color: var(--muted); margin-top: 8px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+
+.flow { display: flex; flex-direction: column; }
+.stage { display: grid; grid-template-columns: 1fr 230px; gap: 18px; background: var(--surface);
+  border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 8px; padding: 16px 18px; }
+.stage > * { min-width: 0; }
+.tag { font: 500 0.7rem var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--c); }
+.stage h3 { font-family: var(--display); font-size: 1.05rem; margin: 2px 0 6px; }
+.stage ul { margin: 0; padding-left: 18px; color: var(--muted); font-size: 0.9rem; }
+.stage li + li { margin-top: 2px; }
+.stage code { font-family: var(--mono); font-size: 0.85em; color: var(--fg); }
+.nums { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; align-content: start; font-size: 0.85rem;
+  border-left: 1px solid var(--line); padding-left: 16px; }
+.nums dt { color: var(--muted); }
+.nums dd { margin: 0; font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+.nums dd.hi { color: var(--c); font-weight: 500; }
+.arrow { display: flex; align-items: center; gap: 10px; padding: 6px 0 6px 22px; color: var(--muted); font: 0.8rem var(--mono); }
+.arrow::before { content: ""; width: 2px; height: 26px; background: var(--line); }
+.planned { border-style: dashed; border-left-style: dashed; background: transparent; }
+.loopzone { position: relative; display: flex; flex-direction: column; padding-right: 84px; }
+.loop { position: absolute; top: 0; height: 0; pointer-events: none;
+  border: 2px dashed var(--fg); border-left: 0; border-radius: 0 10px 10px 0; }
+.loop.a { right: 44px; width: 30px; }
+.loop.b { right: 6px; width: 68px; }
+.loop.b span { left: auto; right: 8px; }
+.loop::before { content: ""; position: absolute; left: -10px; top: -7px;
+  border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-right: 10px solid var(--fg); }
+.loop span { position: absolute; left: 8px; top: 50%; transform: translateY(-50%); writing-mode: vertical-rl;
+  font: 500 0.72rem var(--mono); color: var(--fg); white-space: nowrap; background: var(--bg); padding: 6px 0; }
+
+table { border-collapse: collapse; width: 100%; font-size: 0.88rem; background: var(--surface); }
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; }
+tr:last-child td { border-bottom: 0; }
+.ok { color: var(--good); font-weight: 600; }
+.no { color: var(--bad); font-weight: 600; }
+.note { color: var(--muted); font-size: 0.82rem; margin: 0; max-width: 75ch; }
+@media (max-width: 640px) {
+  .stage { grid-template-columns: 1fr; }
+  .nums { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 10px; }
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Ledger Labelling Pipeline</h1>
+    <p class="sub">Anyfin × KTH case night, Track A. Validation-set numbers below; held-out accuracy in the table that follows. Every bank transaction gets one of 19 categories or <code class="mono">unknown</code>. Scoring: right +1, wrong −1, unknown 0. Measured on the validation set (1,183 rows, 5 unseen customers, 4 bank text formats).</p>
+    <div class="totals">
+      <div><b>10.5 s</b><span>wall time</span></div>
+      <div><b>$0.0060</b><span>API cost</span></div>
+      <div><b>6</b><span>Haiku calls</span></div>
+      <div><b>92</b><span>held-out score / 100</span></div>
+      <div><b>97.9%</b><span>held-out precision</span></div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Who labelled the 1,183 rows</h2>
+    <div class="share" style="margin-top:10px" role="img" aria-label="Rules 89 rows, ML 327, Haiku 722, unknown 45">
+      <div style="flex:89;background:var(--rules)">89</div>
+      <div style="flex:327;background:var(--ml)">ML 327</div>
+      <div style="flex:722;background:var(--llm)">Haiku 722</div>
+      <div style="flex:45;background:var(--unk)">45</div>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--rules)"></i>Rules 7.5%</span>
+      <span><i style="background:var(--ml)"></i>ML 27.6%</span>
+      <span><i style="background:var(--llm)"></i>Haiku, cross-checked 61.0%</span>
+      <span><i style="background:var(--unk)"></i>Unknown 3.8%</span>
+    </div>
+  </section>
+
+  <section style="display:flex;flex-direction:column;gap:10px">
+    <h2>Held-out performance</h2>
+    <p class="note">Each training customer is left out in turn: the pipeline trains on the other two and labels the held-out customer as if it were new. The validation set has no labels, so these three runs are the only measured accuracy.</p>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Held out</th><th>Rows</th><th>Rules</th><th>ML</th><th>Haiku</th><th>Right</th><th>Wrong</th><th>Unknown</th><th>Precision</th><th>Coverage</th><th>Score / 100</th><th>Time</th><th>Cost</th></tr></thead>
+        <tbody class="mono">
+          <tr><td>c1 · Nordea</td><td>241</td><td>12/12</td><td>10/10</td><td>205/211</td><td class="ok">227</td><td class="no">6</td><td>8</td><td>97.4%</td><td>96.7%</td><td><b>92</b></td><td>8.9 s</td><td>$0.0014</td></tr>
+          <tr><td>c2 · Swedbank</td><td>257</td><td>23/23</td><td>8/8</td><td>197/205</td><td class="ok">228</td><td class="no">8</td><td>21</td><td>96.6%</td><td>91.8%</td><td><b>86</b></td><td>8.4 s</td><td>$0.0009</td></tr>
+          <tr><td>c3 · Handelsbanken</td><td>198</td><td>24/24</td><td>9/9</td><td>165/165</td><td class="ok">198</td><td class="no">0</td><td>0</td><td>100%</td><td>100%</td><td><b>100</b></td><td>8.3 s</td><td>$0.0009</td></tr>
+          <tr><td><b>All three</b></td><td>696</td><td>59/59</td><td>27/27</td><td>567/581</td><td class="ok">653</td><td class="no">14</td><td>29</td><td>97.9%</td><td>95.8%</td><td><b>92</b></td><td>25.6 s</td><td>$0.0032</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Rules, ML and Haiku columns show right / labelled. Precision = right ÷ labelled, coverage = share not unknown, score = (right − wrong) per 100 rows. All 14 errors come from Haiku; rules and ML made none. c2 is the hardest customer: gambling, debt collection and a savings account the bank calls checking.</p>
+  </section>
+
+  <section class="flow" aria-label="Pipeline stages">
+    <div class="stage" style="--c:var(--muted)">
+      <div>
+        <div class="tag">Setup</div>
+        <h3>Train the ML layer</h3>
+        <ul>
+          <li>Load 696 labelled training rows</li>
+          <li>Tune the confidence threshold with leave-one-customer-out CV</li>
+          <li>Fit TF-IDF (char 2–5-grams) + logistic regression</li>
+        </ul>
+      </div>
+      <dl class="nums"><dt>Time</dt><dd class="hi">4.2 s</dd><dt>Tokens</dt><dd>0</dd></dl>
+    </div>
+    <div class="arrow">1,183 rows in</div>
+
+    <div class="stage" style="--c:var(--rules)">
+      <div>
+        <div class="tag">Step 1 · Rules</div>
+        <h3>Deterministic rules from the labelling guide</h3>
+        <ul>
+          <li>Own-account transfer pairing: same customer, day and amount, opposite signs → <code>transfer.own</code> / <code>transfer.savings</code></li>
+          <li>Card bill arriving on the card account → <code>transfer.own</code>; paying side → <code>credit.loan</code></li>
+          <li>Mortgage (SBAB, bolån, hypotek) → <code>credit.loan</code></li>
+        </ul>
+      </div>
+      <dl class="nums"><dt>Labelled</dt><dd class="hi">89 rows</dd><dt>Time</dt><dd>0.16 s</dd><dt>Tokens</dt><dd>0</dd><dt>Precision</dt><dd>100% (train)</dd></dl>
+    </div>
+    <div class="arrow">1,094 rows left</div>
+
+    <div class="loopzone">
+    <div class="stage planned" id="s15" style="--c:var(--fg)">
+      <div>
+        <div class="tag">Step 1.5 · Merchant dictionary · planned</div>
+        <h3>Exact merchant lookup</h3>
+        <ul>
+          <li>Extract the merchant: strip bank prefix, date, store number, city, foreign amount</li>
+          <li>Key = merchant + direction (Blocket out = <code>spend.shopping</code>, in = <code>income.sales</code>)</li>
+          <li>Hit → label directly, no cross-check: entries were checked when written</li>
+          <li>Never stores ambiguous names: Swish, Klarna, payment-provider prefixes</li>
+        </ul>
+      </div>
+      <dl class="nums"><dt>Status</dt><dd>not built</dd><dt>Time</dt><dd>—</dd><dt>Tokens</dt><dd>0</dd></dl>
+    </div>
+    <div class="arrow">dictionary misses → ML</div>
+
+    <div class="stage" id="s2" style="--c:var(--ml)">
+      <div>
+        <div class="tag">Step 2 · ML</div>
+        <h3>Logistic regression scores every remaining row</h3>
+        <ul>
+          <li>Probability ≥ 0.8 and not Swish / payment provider → take the ML label</li>
+          <li>Otherwise → send to Haiku, keeping ML's guess for step 4</li>
+          <li>Swish and <code>KLARNA*</code>, <code>ZETTLE_</code>, <code>SUMUP</code>, <code>IZ *</code>, <code>PAYPAL *</code> need the message or the shop behind them, so ML never decides them</li>
+        </ul>
+      </div>
+      <dl class="nums"><dt>Labelled</dt><dd class="hi">327 rows</dd><dt>Time</dt><dd>0.09 s</dd><dt>Tokens</dt><dd>0</dd><dt>Precision</dt><dd>100% (held-out)</dd></dl>
+    </div>
+    <div class="arrow">767 rows → deduped to 293 merchants</div>
+
+    <div class="stage" style="--c:var(--llm)">
+      <div>
+        <div class="tag">Step 3 · Haiku 5.5</div>
+        <h3>Batched, parallel LLM classification</h3>
+        <ul>
+          <li>Normalise text and dedupe: pay per merchant, not per row</li>
+          <li>Batches of 50, 16 parallel calls, thinking off</li>
+          <li>Prompt: 19 category definitions, the 6 labelling rules, examples</li>
+          <li>Structured output: category + sure / unsure</li>
+        </ul>
+      </div>
+      <dl class="nums"><dt>Calls</dt><dd>6</dd><dt>Time</dt><dd class="hi">5.7 s</dd><dt>Input</dt><dd>28,466 tok</dd><dt>Output</dt><dd>6,268 tok</dd><dt>Cost</dt><dd class="hi">$0.0060</dd></dl>
+    </div>
+    <div class="arrow">293 answers + ML's second opinion</div>
+
+    <div class="stage" id="s4" style="--c:var(--good)">
+      <div>
+        <div class="tag">Step 4 · Cross-check</div>
+        <h3>ML as a second opinion on Haiku</h3>
+        <ul>
+          <li>Two independent signals instead of one uncalibrated one</li>
+          <li>Agreement can rescue an unsure answer; strong disagreement blocks a sure one</li>
+          <li>Rules in the table below</li>
+        </ul>
+      </div>
+      <dl class="nums"><dt>Labelled</dt><dd class="hi">722 rows</dd><dt>Time</dt><dd>0.01 s</dd><dt>Tokens</dt><dd>0</dd></dl>
+    </div>
+    <div class="arrow">45 rows left</div>
+
+    <div class="stage" style="--c:var(--unk)">
+      <div>
+        <div class="tag">Step 5 · Abstain</div>
+        <h3>Everything else → unknown</h3>
+        <ul><li>A wrong label can move a credit decision, so it costs −1; unknown costs 0</li></ul>
+      </div>
+      <dl class="nums"><dt>Rows</dt><dd class="hi">45</dd><dt>Score</dt><dd>0</dd></dl>
+    </div>
+    <div class="arrow">confident labels from steps 3–4</div>
+
+    <div class="stage planned" id="s6" style="--c:var(--fg)">
+      <div>
+        <div class="tag">Step 6 · Distil into the ML model · planned</div>
+        <h3>Haiku teaches the small model</h3>
+        <ul>
+          <li>Collect confident labels (Haiku sure + ML agrees, plus spot-checked samples) as new training rows</li>
+          <li>Retrain TF-IDF + logistic regression on a schedule; re-tune the threshold on held-out customers</li>
+          <li>Each round the ML layer covers more rows, so fewer reach Haiku</li>
+          <li>Keep a fixed human-labelled test set, and never train on unverified outputs, so errors don't compound</li>
+        </ul>
+      </div>
+      <dl class="nums"><dt>Status</dt><dd>not built</dd><dt>Time</dt><dd>—</dd><dt>Tokens</dt><dd>0</dd></dl>
+    </div>
+
+    <div class="loop a" data-from="s4" data-to="s15" aria-hidden="true"><span>distil: new dictionary entry</span></div>
+    <div class="loop b" data-from="s6" data-to="s2" aria-hidden="true"><span>retrain: new training rows</span></div>
+    </div>
+    <p class="note" style="margin:10px 0 0">Dashed = planned, not part of the measured runs. Both loops feed confident, cross-checked Haiku labels back into the free layers: the dictionary learns exact merchants, the ML model learns patterns. LLM calls then track new merchants, not transactions.</p>
+  </section>
+
+  <section style="display:flex;flex-direction:column;gap:10px">
+    <h2>Step 4 decision rules</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Row type</th><th>Haiku says</th><th>ML says</th><th>Result</th></tr></thead>
+        <tbody>
+          <tr><td>Swish / payment provider</td><td>sure</td><td>ignored</td><td class="ok">Haiku label</td></tr>
+          <tr><td>Swish / payment provider</td><td>unsure</td><td>ignored</td><td class="no">unknown</td></tr>
+          <tr><td>Other</td><td>sure</td><td>agrees, or prob &lt; 0.9</td><td class="ok">Haiku label</td></tr>
+          <tr><td>Other</td><td>sure</td><td>disagrees with prob ≥ 0.9</td><td class="no">unknown</td></tr>
+          <tr><td>Other</td><td>unsure</td><td>agrees</td><td class="ok">Haiku label</td></tr>
+          <tr><td>Other</td><td>unsure</td><td>disagrees</td><td class="no">unknown</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Effect on held-out customer c2, same Haiku answers: sure-only gives 192 right, 8 wrong, 26 unknown; with the cross-check 197 right, 8 wrong, 21 unknown. On c1 and c3 it changed nothing. Haiku output varies slightly between runs, so unknown counts move by a few rows.</p>
+  </section>
+
+  <section style="display:flex;flex-direction:column;gap:10px">
+    <h2>Measured cost per run</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Run</th><th>Rows</th><th>Haiku calls</th><th>Input tokens</th><th>Output tokens</th><th>Cost</th></tr></thead>
+        <tbody>
+          <tr><td>Validation set</td><td class="mono">1,183</td><td class="mono">6</td><td class="mono">28,466</td><td class="mono">6,268</td><td class="mono">$0.0060</td></tr>
+          <tr><td>Held-out customer c1</td><td class="mono">241</td><td class="mono">2</td><td class="mono">8,060</td><td class="mono">1,170</td><td class="mono">$0.0014</td></tr>
+          <tr><td>Held-out customer c2</td><td class="mono">257</td><td class="mono">1</td><td class="mono">4,161</td><td class="mono">906</td><td class="mono">$0.0009</td></tr>
+          <tr><td>Held-out customer c3</td><td class="mono">198</td><td class="mono">1</td><td class="mono">4,163</td><td class="mono">895</td><td class="mono">$0.0009</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Haiku 5.5 with thinking off, priced at $0.10 per million input tokens and $0.50 per million output tokens. Rules and ML cost nothing.</p>
+  </section>
+
+  <section style="display:flex;flex-direction:column;gap:10px">
+    <h2>Cost at 10 million rows a month</h2>
+    <p class="note">Projections, not measurements. Each row says what it is scaled from.</p>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Setup</th><th>Per month</th><th>Basis</th></tr></thead>
+        <tbody>
+          <tr><td><b>As built</b></td><td class="mono"><b>≈ $51</b></td><td>validation cost ($0.0060 / 1,183 rows) × 10M rows</td></tr>
+          <tr><td>+ persistent merchant cache</td><td class="mono">≈ $3</td><td>assumes 5% of merchants are new each month; only those reach Haiku</td></tr>
+          <tr><td>+ Batch API</td><td class="mono">≈ $1.5</td><td>50% batch discount; labelling doesn't need a live answer</td></tr>
+          <tr><td>Baseline: every row to Haiku</td><td class="mono">≈ $200</td><td>measured tokens per item (97 in, 21 out) × 10M, no rules, ML or dedupe</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">The cost driver is the number of distinct new merchants, not the number of transactions. Rules, the dictionary and the ML model absorb the repeats for free.</p>
+  </section>
+</div>
+<script>
+// Place each dashed loop between the vertical middles of its source and target stages
+function placeLoops() {
+  document.querySelectorAll(".loop").forEach(function (l) {
+    var a = document.getElementById(l.dataset.to), b = document.getElementById(l.dataset.from);
+    if (!a || !b) return;
+    var top = a.offsetTop + a.offsetHeight / 2, bottom = b.offsetTop + b.offsetHeight / 2;
+    l.style.top = top + "px";
+    l.style.height = Math.max(0, bottom - top) + "px";
+  });
+}
+placeLoops();
+window.addEventListener("resize", placeLoops);
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(placeLoops);
+</script>
+
+</html>
